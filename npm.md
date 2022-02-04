@@ -8,11 +8,17 @@ the -y flag create a default package.json file
 
 
 ## npm install
+USE .gitignore FILE SO
 
 ### installing a module
 ``` bash
 npm install lodash
+# OR
+npm i lodash
+# OR
+npm i --save-dev jest
 ```
+
 ``` javascript
 const _ = require("lodash");
 ```
