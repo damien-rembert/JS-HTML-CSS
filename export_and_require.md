@@ -21,3 +21,23 @@ const importedFunctions = require('./path/to/the/file.js');
 // OR, to import only that one var
 const {name_of_the_var} = require('./path/to/the/file.js');
 ```
+
+
+
+``` js
+const osObj = require("os");
+const fsObj = require("fs");
+
+let userData = osObj.userInfo().username;
+console.log(userData);
+
+// console.log(fsObj);
+
+fsObj.appendFile("example.txt", `the username is ${userData}\n`, (error) => {
+    if (error) {
+        console.log(error);
+    } else {
+        console.log("it's all working");
+    }
+})
+```

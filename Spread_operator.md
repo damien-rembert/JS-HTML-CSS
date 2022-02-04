@@ -16,3 +16,6 @@ console.log(everyOtherDay); // [ 'Thursday', 'Friday', 'Sat', 'Sunday' ]
 
 
 
+
+
+

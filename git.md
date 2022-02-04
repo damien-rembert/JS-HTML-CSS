@@ -23,6 +23,9 @@ git clone --depth 1 <url>
 ## git fetch
 ???
 
+## git branch
+???
+
 # Initial process
 ## git init
 Turn current folder into a git repo
@@ -46,3 +49,6 @@ git push -u origin master #send, "push", the current local version to the remote
 git push -u origin --all # pushes up the repo and its refs for the first time
 git push -u origin --tags # pushes up any tags
 ```
+
+
+
