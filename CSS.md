@@ -6,7 +6,7 @@ Properties indicated lower will prevail over properties above (file order)
 For wrapping and aligning there needs to be dimensions indicated
 
 no overflow allowed
-
+``` CSS
 selector {
     property: value;
     property: value;
@@ -16,6 +16,7 @@ h1 {
     color: red;
     font-size: 12px;
 }
+```
 
 # Border box model
 ## Margin
@@ -29,12 +30,14 @@ px: pixels
 
 # Media Query
 getting everything if the screen is under 1000 pixels:
+``` CSS
 @media all and (max-width: 1000px) {
 }
 
 getting everything if the screen is under 500 pixels:
 @media all and (max-width: 500px) {
 }
+```
 
 # Align and Justify
 align is on the horizontal axis?
@@ -47,31 +50,40 @@ NO it's more "main" axis and "other" axis
 eg: @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
 
 # wildcard
+
+``` CSS
 * {
     box-sizing: border box;
-
 }
+```
 
 # accessing a class
 You can have more than one class in the html eg <p class="center large">
+``` CSS
 .center {
     ...
 }
+```
 
-.theNameOfAClasse {
+``` CSS
+.theNameOfAClass {
     ...
 }
-
+``` 
 
 # accessing an id
-#theNameOfAClasse {
+``` CSS
+#theID {
     ...
 }
+```
 
 # accessing multiple things at once
+``` CSS
 #image1, .font8, a {
     color: brown;
 }
+```
 
 # Flexbox
 
@@ -89,6 +101,7 @@ For example, justify-content: flex-end;
 # flex:
 flex-grow: 1;
 flex: 1;
+
 enables elements to grow, the higher the number, the more space will be attributed to the object proportionnaly
 
 
@@ -113,7 +126,7 @@ align-self:
 
 
 background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
-
+``` CSS
 a:hover {
   background: rgba(0, 0, 0, 0.3);
 }
@@ -121,6 +134,7 @@ a:hover {
   .flex-nav ul li {
     width: 50%;
   }
+```
 
 # Selectors
 ## colon
