@@ -5,10 +5,14 @@
 in your project folder, run `npm init -y`
 the -y flag create a default package.json file
 
+## easy way to create a react project
+``` bash
+npx create-react-app <project-name>
+```
 
 
 ## npm install
-USE .gitignore FILE SO
+USE .gitignore FILE SO THE MODULE ARE NOT PUSHED TO REMOTE REPO
 
 ### installing a module
 ``` bash

@@ -2,7 +2,8 @@
 
 ## Export file
 ``` javascript
-const myObject = {}
+const myObject = {name: "Jon", age: 15, job: "banker"};
+console.log()
 
 ```
 

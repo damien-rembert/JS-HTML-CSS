@@ -9,6 +9,9 @@ ReactDOM.render(<App />, mountNode);
 ```
 
 
+# jsx
+syntax mixing JS and html
+
 # Requirements for React.js
  our project to create a react
 app:
