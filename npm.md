@@ -2,6 +2,8 @@
 
 
 ## npm init
+USE .gitignore FILE SO THE MODULE ARE NOT PUSHED TO REMOTE REPO
+
 in your project folder, run `npm init -y`
 the -y flag create a default package.json file
 
@@ -15,6 +17,8 @@ npx create-react-app <project-name>
 USE .gitignore FILE SO THE MODULE ARE NOT PUSHED TO REMOTE REPO
 
 ### installing a module
+USE .gitignore FILE SO THE MODULE ARE NOT PUSHED TO REMOTE REPO
+
 ``` bash
 npm install lodash
 # OR
@@ -27,6 +31,8 @@ npm i --save-dev jest
 const _ = require("lodash");
 ```
 ### installing all the dependencies defined in package.json (eg in a recently cloned repo)
+USE .gitignore FILE SO THE MODULE ARE NOT PUSHED TO REMOTE REPO
+
 ``` bash
 npm install
 ```
