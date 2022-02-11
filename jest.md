@@ -33,6 +33,7 @@ module.exports = {
 ``` js
 const {add} = require("./jest_test");
 
+// first param is a string description of the test
 test("two numbers add up", () => {
     expect(add(1, 2)).toBe(3);
 });
@@ -44,8 +45,20 @@ test("two numbers add up", () => {
 test("return is a copy", () => {
     expect(copyArray(array)).not.toBe(array);
     expect(copyArray(array)).toEqual(array); 
-
 })
+```
+
+# grouping tests using describe method
+```js
+describe("All the tests for the button", () => {
+    test("testing the button is rendered", () => {...})
+    test("more tests on the button", () => {...})
+
+
+
+
+}
+) 
 ```
 
 
