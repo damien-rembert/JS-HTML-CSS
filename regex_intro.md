@@ -56,14 +56,9 @@ curly braces `{}`                | `{n}` repeating n times, `{x,y}` repeating at
 
 
 # The mighty dot
-. any character except line breaks
+`.` any character except line breaks
 
 `.` => lorem lkfjdslfjk lkfsjf ldskfjle mdfj§:f!:;!:;lkfm 
-
-
-
-
-
 
 
 
@@ -74,15 +69,16 @@ curly braces `{}`                | `{n}` repeating n times, `{x,y}` repeating at
 # Backslash and other characters
 backslash `\` is the escape character, to make special characters "normal" and used in combination with non special characters to make them special.
 
+
 ## Non-printable characters
 `\t` is Tab
 `\r\n` is carriage Return and New line (line break is just `\n` on Linux/Mac)
+
 
 ## Ready-made classes
 `\w` matches all Word characters (letters, numbers and underscore)
 `\d` matches all numbers
 `\s` matches all white characters (tab, spaces, line breaks)
-
 
 
 ## Anchors/Positioning
@@ -122,16 +118,14 @@ curly brace {}
 # Examples
 
 ## quick and dirty email address check
-.+@.+
+`.+@.+\.[a-z]+`
 
 test@gmail.com
 
-## format/check phone numbers
-0 777 1575 0 37
-00447771575037
 
 ## find all tags in code 
-## or all comments
+`<(a|p|img)`
+
 
 ## quickly formatting text
 
