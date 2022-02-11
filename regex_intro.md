@@ -1,28 +1,6 @@
-
-
-
-
 # Regular Expressions 
 
 Regular Expressions/RegExes are patterns used to search (and capture) matches in text.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Literal characters
@@ -45,25 +23,10 @@ square brackets `[]`             | defining a class
 curly braces `{}`                | `{n}` repeating n times, `{x,y}` repeating at min x times, max y times, also `{,y}` and `{x,}` where undefined value = unlimited
 
 
-
-
-
-
-
-
-
-
-
-
 # The mighty dot
 `.` any character except line breaks
 
 `.` => lorem lkfjdslfjk lkfsjf ldskfjle mdfj§:f!:;!:;lkfm 
-
-
-
-
-
 
 
 # Backslash and other characters
@@ -126,6 +89,18 @@ test@gmail.com
 ## find all tags in code 
 `<(a|p|img)`
 
+``` html
+    <div id="lower_content">
+        <div id="weekly_recommends">
+            <p>Recommended this week on GBC</p>
+            <!-- add anchors -->
+            <p><a>Give her biscuits</a></p>
+            <p><a>Signature dish</a></p>
+            <p><a>Shades of January</a></p>
+            <img src="https://media-cdn.greatbritishchefs.com/media/xrga0epj/img29188.jpg?mode=crop&width=520&height=347" alt="More Biscuits">
+        </div>
+    </div>
+```
 
 ## quickly formatting text
 

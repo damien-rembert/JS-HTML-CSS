@@ -20,6 +20,8 @@ Copies, "clone", a remote repo
 Shallow clone for big repo, not cloning the whole history
 git clone --depth 1 <url>
 
+## git stash
+
 ## git fetch
 ???
 
