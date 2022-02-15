@@ -2,8 +2,6 @@
 
 
 # look up meaning of:
-origin
-master/main
 -u flag
 fetch
 
@@ -26,7 +24,21 @@ git clone --depth 1 <url>
 ???
 
 ## git branch
-???
+list the branches and hightlights the current
+
+## git branch newbranchname
+create new branch named newbranchname
+
+
+# glossary
+## origin
+"origin" is a shorthand name for the remote repository that a project was originally cloned from. More precisely, it is used instead of that original repository's URL - and thereby makes referencing much easier.
+Note that origin is by no means a "magical" name, but just a standard convention.
+
+## remote
+A `remote` in Git is a common repository that all team members use to exchange their changes. In most cases, such a remote repository is stored on a code hosting service like GitHub or on an internal server.
+In contrast to a **local** repository, a remote typically does not provide a file tree of the project's current state. Instead, it only consists of the .git versioning data.
+
 
 # Initial process
 ## git init
@@ -39,6 +51,9 @@ Save, "commit", files to the default(?)/current(?)/local(?) repo
 Add a remote repo, (marking it as a copy?)
 ## git push -u origin master
 send, "push", the current local version to the remote repo
+
+# Creating a branch to work on a new function
+# Commiting from a branch to main
 
 ``` bash
 cd "/mnt/data/CN/week_4"
