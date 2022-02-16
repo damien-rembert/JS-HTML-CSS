@@ -13,7 +13,7 @@ Check the status of the repo, compares local and remote
 ## git pull
 get, "pull", the latest version from the remote repo
 
-## git clone
+## git clone [url]
 Copies, "clone", a remote repo
 Shallow clone for big repo, not cloning the whole history
 git clone --depth 1 <url>
@@ -24,10 +24,18 @@ git clone --depth 1 <url>
 ???
 
 ## git branch
+indicates the current branch
 list the branches and hightlights the current
+
+## git branch -a 
+this will show all the branches that are apart of this
+repository, the -a is a flag to show all
 
 ## git branch newbranchname
 create new branch named newbranchname
+
+## git checkout [branch name]
+let us change to the different branches
 
 
 # glossary
