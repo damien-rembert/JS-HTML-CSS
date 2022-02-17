@@ -34,8 +34,12 @@ repository, the -a is a flag to show all
 ## git branch newbranchname
 create new branch named newbranchname
 
-## git checkout [branch name]
+## git checkout [branchname]
 let us change to the different branches
+
+## git push origin [branchname]
+push a new branch to remote repo
+
 
 
 # glossary
