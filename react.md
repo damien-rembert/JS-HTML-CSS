@@ -44,3 +44,30 @@ We can pass a function to another component with props, if we want to pass a val
 <> or <React.Fragment>
 to be used when you do not want to add a div to the dom
 downside cannot use attributes
+
+# testing
+
+install:
+``` bash
+npm install --save @testing-library/react @testing-library/jest-dom
+```
+
+If you want to avoid boilerplate in your test files, you can create a src/setupTests.js file:
+``` JS
+// react-testing-library renders your components to document.body,
+// this adds jest-dom's custom assertions
+import '@testing-library/jest-dom';
+```
+
+Example to test App.js:
+in src/App.test.js
+``` JS
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+
+it('renders without crashing', () => {
+  const div = document.createElement('div');
+  ReactDOM.render(<App />, div);
+});
+```

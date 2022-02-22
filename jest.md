@@ -53,10 +53,6 @@ test("return is a copy", () => {
 describe("All the tests for the button", () => {
     test("testing the button is rendered", () => {...})
     test("more tests on the button", () => {...})
-
-
-
-
 }
 ) 
 ```

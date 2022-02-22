@@ -54,10 +54,10 @@ fruits.forEach(function(item, index, array) {
 ```
 
 ## .shift()
-add an item to the front of an array
+remove an item from the front of an array
 
 ## .unshift()
-remove an item from the front of an array
+add an item to the front of an array
 
 ## .splice()
 Remove an item by index position
@@ -66,7 +66,7 @@ let removedItem = fruits.splice(pos, 1) // this is how to remove an item
 ```
 
 ## .slice()
-The `.slice()` method returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. The original array will not be modified. 
+The `.slice()` method returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. The original array will not be modified.
 
 
 ## .length property
