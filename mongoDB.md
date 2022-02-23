@@ -22,6 +22,7 @@ Use `.gitignore` to ensure `.env` is not sent to the repo
 MONGO_URI="mongodb+srv://<username>:<password>@clusterino.ktjib.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 ```
 ## in /src/db/connection.js
+
 ```js
 require("dotenv").config();
 const { MongoClient } = require("mongodb");
