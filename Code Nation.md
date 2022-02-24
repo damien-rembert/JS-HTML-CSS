@@ -26,7 +26,7 @@ lifecycle methods/Render/onRender
 API/fetch
 
 truthiness
-The values false, null, 0, "", undefined, and NaN are falsey
+All values are truthy unless they are defined as falsy (i.e., except for false, 0, -0, 0n, "", null, undefined, and NaN).
 
 styled components
 

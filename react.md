@@ -71,3 +71,14 @@ it('renders without crashing', () => {
   ReactDOM.render(<App />, div);
 });
 ```
+
+# React Lifecycle
+
+## Rendering: 
+The render method is a required method within a class component in React. This method controls the rendering of your component to the UI.
+## Mounting: 
+This method gets called right after the component is added into the DOM, through the render method. This method is called only one time in a lifecycle. This rendering will happen before the browser can update the UI and ensure that the user doesn’t see any UI updates with this double rendering.
+## Re-rendering: 
+This lifecycle method is called at the exact moment that the updating happens. Usually, this lifecycle method is used for updating the DOM in response to some state or prop changes.
+## Unmounting: 
+This lifecycle method is used just before that particular component is destroyed and unmounted. This is the right spot to do any clean-up actions in your component. In this lifecycle method, we can perform activities such as cancelling API calls, as well as clearing caches or timers.
