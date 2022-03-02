@@ -67,7 +67,7 @@ send, "push", the current local version to the remote repo
 # Creating a branch to work on a new function
 # Commiting from a branch to main
 
-``` bash
+```bash
 cd "/mnt/data/CN/week_4"
 git init # Turn current folder into a git repo
 git add . # Tell git to "monitor" all the files

@@ -6,7 +6,7 @@ Properties indicated lower will prevail over properties above (file order)
 For wrapping and aligning there needs to be dimensions indicated
 
 no overflow allowed
-``` CSS
+```CSS
 selector {
     property: value;
     property: value;
@@ -30,7 +30,7 @@ px: pixels
 
 # Media Query
 getting everything if the screen is under 1000 pixels:
-``` CSS
+```CSS
 @media all and (max-width: 1000px) {
 }
 
@@ -51,7 +51,7 @@ eg: @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:9
 
 # wildcard
 
-``` CSS
+```CSS
 * {
     box-sizing: border box;
 }
@@ -59,27 +59,27 @@ eg: @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:9
 
 # accessing a class
 You can have more than one class in the html eg <p class="center large">
-``` CSS
+```CSS
 .center {
     ...
 }
 ```
 
-``` CSS
+```CSS
 .theNameOfAClass {
     ...
 }
 ``` 
 
 # accessing an id
-``` CSS
+```CSS
 #theID {
     ...
 }
 ```
 
 # accessing multiple things at once
-``` CSS
+```CSS
 #image1, .font8, a {
     color: brown;
 }
@@ -126,7 +126,7 @@ align-self:
 
 
 background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
-``` CSS
+```CSS
 a:hover {
   background: rgba(0, 0, 0, 0.3);
 }

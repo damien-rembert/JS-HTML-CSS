@@ -89,7 +89,7 @@ test@gmail.com
 ## find all tags in code 
 `<(a|p|img)`
 
-``` html
+```html
     <div id="lower_content">
         <div id="weekly_recommends">
             <p>Recommended this week on GBC</p>

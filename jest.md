@@ -1,25 +1,28 @@
 # jest
 
 # install jest
-``` bash
+```bash
 npm i --save-dev jest
+# or for React
+npm install --save @testing-library/react @testing-library/jest-dom
 ```
 
+
 ## edit in package.json (scripts/test)
-``` json
+```json
 "scripts": {
     "test": "jest"
 },
 ```
 OR for html files + more in depth analysis results
-``` json
+```json
   "scripts": {
     "test": "jest --coverage"
   },
 ```
 
 # in the file to be tested (jest_test.js)
-``` javascript
+```js
 const add = (num1, num2) => {
     return (num1 + num2);
 };
@@ -30,7 +33,7 @@ module.exports = {
 ```
 
 # in the test file (jest_test.test.js)
-``` js
+```js
 const {add} = require("./jest_test");
 
 // first param is a string description of the test
@@ -39,7 +42,7 @@ test("two numbers add up", () => {
 });
 ```
 
-``` js
+```js
 // this tests it's not the same object
 // then that the content is equal
 test("return is a copy", () => {
@@ -59,5 +62,6 @@ describe("All the tests for the button", () => {
 
 
 # running tests
-``` bash
+```bash
+npm test
 ```

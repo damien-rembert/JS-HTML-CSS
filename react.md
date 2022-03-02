@@ -27,7 +27,7 @@ A development server to use locally
 
 # Passing 
 We can pass a function to another component with props, if we want to pass a value to that function in an event (onClick), using anonymous function
-``` jsx
+```jsx
     return (
         <div >
             <h1>Hello, Common here</h1>
@@ -48,12 +48,12 @@ downside cannot use attributes
 # testing
 
 install:
-``` bash
+```bash
 npm install --save @testing-library/react @testing-library/jest-dom
 ```
 
 If you want to avoid boilerplate in your test files, you can create a src/setupTests.js file:
-``` JS
+```JS
 // react-testing-library renders your components to document.body,
 // this adds jest-dom's custom assertions
 import '@testing-library/jest-dom';
@@ -61,7 +61,7 @@ import '@testing-library/jest-dom';
 
 Example to test App.js:
 in src/App.test.js
-``` JS
+```JS
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';

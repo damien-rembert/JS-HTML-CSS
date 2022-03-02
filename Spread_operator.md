@@ -4,7 +4,7 @@ Iterates through the rest of the object/array
 Can be used to do a shallow copy of an array to another array, or to add the content of an array to an array (otherwise the array itself will be added inside an array)
 
 # Example
-``` javascript
+```javascript
 let weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Sat', 'Sunday'];
 // creating the variables
 let firstDay, secondDay, thirdDay, everyOtherDay;

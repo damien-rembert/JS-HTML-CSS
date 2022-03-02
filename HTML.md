@@ -1,18 +1,18 @@
 # HTML
 
 # link to CSS
-``` html
+```html
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
 ``` 
 
 # link to JS
 look into defer attribute
-``` html
+```html
     <script src="./CyberPet.js"></script>
 ```
 
 # Open link in new tab
-``` html
+```html
 <a href="www.google.com" target="_blank">Google</a>
 ```
 
@@ -20,13 +20,13 @@ look into defer attribute
 to make things easily accessible to CSS
 
 # images
-``` html
+```html
 <img src="cn.png" alt="logo">
 ``` 
 
 # forms
 interesting input types text, date, file, radio
-``` html
+```html
 <form id="contactus">
     <label>send us a file</label>
     <input type="file">
@@ -36,13 +36,13 @@ interesting input types text, date, file, radio
 ```
 
 # button
-``` html
+```html
 <button type="button" disabled>Click me</button>
 ```
 
 
 # attributes
-``` html
+```html
 <p contenteditable="true" spellcheck="false">hello how are you</p>
 <button type="button" disabled>Click me</button>
 ```
