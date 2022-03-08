@@ -41,3 +41,12 @@ fsObj.appendFile("example.txt", `the username is ${userData}\n`, (error) => {
     }
 })
 ```
+
+# in the exporting file
+```js
+exports.addActorToFilm = async (name, yob, title) => {
+```
+# in the requiring file
+```js
+const { addActor, listActors, deleteActor, addActorToFilm } = require("./functions/actorFunction");
+```
